@@ -1,13 +1,27 @@
 import "./App.css"
 import Layout from "./components/Layout/Layout"
 import { Switch, Route } from "react-router"
-
+import Home from "./screens/Home/Home"
+import Projects from "./screens/Projects/Projects"
+import Contact from "./screens/Contact/Contact"
+import About from "./screens/About/About"
 function App() {
   return (
     <div className="App">
       <Layout>
         <Switch>
-          <h1>This is the app component</h1>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
         </Switch>
       </Layout>
     </div>
