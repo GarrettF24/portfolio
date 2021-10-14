@@ -1,6 +1,7 @@
 import React from "react"
 import "./Projects.css"
 import MuayThaiPicture from "../../assets/muay-thai-guy.png"
+import GJAM from "../../assets/gjam.png"
 export default function Projects() {
   return (
     <div className="project-container">
@@ -20,7 +21,9 @@ export default function Projects() {
       </div>
       <div className="projects">
         <div className="project-screenshot">
-          <img src="" alt="project1" />
+          <a className="anchor" href="https://gjam-app.netlify.app/">
+            <img src={GJAM} alt="project2" />
+          </a>
         </div>
         <div className="project-info">
           <p className="project-paragraph">
