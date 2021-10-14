@@ -72,6 +72,9 @@ export default function Contact() {
         <a target="_blank" href="https://github.com/WAMS24">
           Github
         </a>
+        <a target="_blank" href="https://github.com/WAMS24">
+          Github
+        </a>
       </div>
     </div>
   )
