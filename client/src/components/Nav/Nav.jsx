@@ -11,6 +11,7 @@ export default function Nav() {
           Projects
         </Link>
         <a
+          rel="noreferrer"
           className="link"
           target="_blank"
           href="https://drive.google.com/file/d/1P8RF_95w1scBzME44lJOWassQLOeGs_P/view?usp=sharing"
