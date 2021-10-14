@@ -56,3 +56,20 @@
 .project-paragraph {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 575px) {
+  .projects {
+    width: 95vw;
+  }
+  .project-screenshot {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 50%;
+  }
+
+  .project-paragraph {
+    font-size: 0.7rem;
+  }
+}
