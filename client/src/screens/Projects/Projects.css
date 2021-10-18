@@ -39,7 +39,7 @@
 
 .project-screenshot {
   display: flex;
-  width: 40%;
+  width: 50%;
   border: 1px solid seagreen;
 }
 
@@ -49,27 +49,51 @@
 
 .project-info {
   display: flex;
+  flex-direction: column;
   width: 60%;
   border: 1px solid yellow;
+  font-size: 1.2rem;
 }
 
 .project-paragraph {
   margin-left: 1rem;
+  border: 3px solid midnightblue;
+  font-size: 1.1rem;
+}
+
+.code-links {
+  display: flex;
+  justify-content: center;
+  border: 5px solid grey;
 }
 
 @media only screen and (max-width: 575px) {
+  #root {
+    min-height: 100vh;
+  }
+  .project-container {
+    margin: 0 auto;
+  }
   .projects {
     width: 95vw;
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    margin: auto;
   }
   .project-screenshot {
-    width: 50%;
+    width: 100%;
   }
 
   .project-info {
-    width: 50%;
+    width: 100%;
+    flex-direction: column;
   }
 
   .project-paragraph {
     font-size: 0.7rem;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
   }
 }
