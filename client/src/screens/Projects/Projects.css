@@ -79,10 +79,14 @@
     display: flex;
     min-height: 50vh;
     flex-direction: column;
-    margin: auto;
+    margin: 5px;
   }
   .project-screenshot {
     width: 100%;
+  }
+
+  .screenshot {
+    height: 20vh;
   }
 
   .project-info {
