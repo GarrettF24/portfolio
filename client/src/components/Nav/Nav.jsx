@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="logo">
-        <Link to="/">Home logo here</Link>
+        <Link to="/home">Home logo here</Link>
       </div>
       <div className="links">
         <Link className="link" to="/projects">
