@@ -10,3 +10,16 @@
   left: 0;
   color: white;
 }
+
+.footer-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.footer-links a {
+  color: rgba(221, 219, 219, 0.753);
+}

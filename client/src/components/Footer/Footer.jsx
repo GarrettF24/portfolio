@@ -1,11 +1,26 @@
 import React from "react"
 import "./Footer.css"
+import { FiGithub } from "react-icons/fi"
+import { FiLinkedin } from "react-icons/fi"
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <h1>This is the footer</h1>
-      <div className="phantomstyle"></div>
+      <div className="footer-links">
+        <div className="linkedin-footer-link">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/garrettfoster24/"
+          >
+            <FiLinkedin />
+          </a>
+        </div>
+        <div className="github-footer-link">
+          <a target="_blank" href="https://github.com/WAMS24">
+            <FiGithub />
+          </a>
+        </div>
+      </div>
     </footer>
   )
 }

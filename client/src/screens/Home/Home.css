@@ -1,7 +1,7 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 3rem auto;
   width: 85vw;
 }
@@ -9,7 +9,7 @@
 .about-me {
   display: flex;
   /* flex-direction: column; */
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   margin: 1rem auto;
   height: 400px;
@@ -17,20 +17,20 @@
 
 .about-paragraph {
   display: flex;
-  border: 4px solid yellow;
+  /* border: 4px solid yellow; */
   width: 60%;
   align-items: center;
 }
 .tech-stack {
   display: flex;
-  border: 4px solid rgb(77, 126, 126);
+  /* border: 4px solid rgb(77, 126, 126); */
   /* justify-content: center; */
   margin: 1rem auto;
   width: 30%;
 }
 
 .tech-stack-list {
-  border: 3px goldenrod;
+  /* border: 3px goldenrod; */
   align-items: center;
   display: flex;
   font-size: x-large;
@@ -39,20 +39,20 @@
 .contact {
   display: flex;
   /* flex-direction: column; */
-  border: 4px solid greenyellow;
+  /* border: 4px solid greenyellow; */
   justify-content: center;
   margin: 4rem auto;
   justify-content: space-evenly;
   width: inherit;
 }
 
-.contact-me {
+/* .contact-me {
   border: 5px solid purple;
 }
 
 .portfolio-link {
   border: 5px solid salmon;
-}
+} */
 
 .home-contact-links a {
   color: black;
@@ -98,14 +98,15 @@
   .contact {
     display: flex;
     flex-direction: row;
-    border: 4px solid greenyellow;
+    /* border: 4px solid greenyellow; */
     justify-content: center;
     margin: 1px auto;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
   }
   .contact-me h2 {
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     font-size: 14px;
     align-content: center;
     display: flex;
@@ -113,7 +114,7 @@
   }
 
   .portfolio-link h2 {
-    border: 5px solid salmon;
+    /* border: 5px solid salmon; */
     font-size: 14px;
     display: flex;
     align-content: center;

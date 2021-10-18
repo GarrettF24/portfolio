@@ -17,7 +17,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid royalblue;
+  /* border: 1px solid royalblue; */
   height: 100%;
   margin: 3rem auto;
 }
@@ -28,7 +28,7 @@
   flex-wrap: nowrap;
   width: 80vw;
   height: 20vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 1rem auto;
 }
 .anchor {
@@ -40,7 +40,7 @@
 .project-screenshot {
   display: flex;
   width: 50%;
-  border: 1px solid seagreen;
+  /* border: 1px solid seagreen; */
 }
 
 .screenshot {
@@ -51,20 +51,20 @@
   display: flex;
   flex-direction: column;
   width: 60%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   font-size: 1.2rem;
 }
 
 .project-paragraph {
   margin-left: 1rem;
-  border: 3px solid midnightblue;
+  /* border: 3px solid midnightblue; */
   font-size: 1.1rem;
 }
 
 .code-links {
   display: flex;
   justify-content: center;
-  border: 5px solid grey;
+  /* border: 5px solid grey; */
 }
 
 @media only screen and (max-width: 575px) {
