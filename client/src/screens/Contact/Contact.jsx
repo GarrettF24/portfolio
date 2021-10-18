@@ -31,47 +31,59 @@ export default function Contact() {
     e.target.reset()
   }
   return (
-    <div className="contact-form">
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          id="form-input-control-email"
-          control={Input}
-          label="Email"
-          name="from_email"
-          placeholder="Email…"
-          required
-          icon="mail"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-input-control-last-name"
-          control={Input}
-          label="Name"
-          name="from_name"
-          placeholder="Name…"
-          required
-          icon="user circle"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-textarea-control-opinion"
-          control={TextArea}
-          label="Message"
-          name="user_message"
-          placeholder="Message…"
-          required
-        />
-        <Button type="submit" color="green">
-          Submit
-        </Button>
-      </Form>
+    <div className="contact-container">
+      <div className="contact-title">
+        <h1>Email or connect with me on LinkedIn!</h1>
+      </div>
       <div className="professional-links">
-        <a target="_blank" href="https://www.linkedin.com/in/garrettfoster24/">
-          LinkedIn
-        </a>
-        <a target="_blank" href="https://github.com/WAMS24">
-          Github
-        </a>
+        <div className="linked-in-link">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/garrettfoster24/"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="github-link">
+          <a target="_blank" href="https://github.com/WAMS24">
+            Github
+          </a>
+        </div>
+      </div>
+      <div className="contact-form">
+        <Form onSubmit={handleOnSubmit}>
+          <Form.Field
+            id="form-input-control-email"
+            control={Input}
+            label="Email"
+            name="from_email"
+            placeholder="Email…"
+            required
+            icon="mail"
+            iconPosition="left"
+          />
+          <Form.Field
+            id="form-input-control-last-name"
+            control={Input}
+            label="Name"
+            name="from_name"
+            placeholder="Name…"
+            required
+            icon="user circle"
+            iconPosition="left"
+          />
+          <Form.Field
+            id="form-textarea-control-opinion"
+            control={TextArea}
+            label="Message"
+            name="message"
+            placeholder="Message…"
+            required
+          />
+          <Button type="submit" color="green">
+            Submit
+          </Button>
+        </Form>
       </div>
     </div>
   )

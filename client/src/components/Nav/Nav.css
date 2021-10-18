@@ -11,13 +11,9 @@ nav {
   justify-content: space-between;
   background-color: #0c0c0cfa;
 }
-/* .sticky {
-} */
-
-/* #home-link {
-  height: 18vh;
-  margin-left: 20%;
-} */
+.logo-img {
+  width: 60%;
+}
 
 .link {
   text-decoration: none;
