@@ -34,16 +34,11 @@ nav {
   height: 8rem;
   align-items: center;
 }
-@media all and (max-width: 800px) {
-  /* .nav {
-    flex-direction: row;
-    width: 100%;
+@media all and (max-width: 575px) {
+  .links {
+    width: 60%;
   }
-  .nav-block {
-    flex-direction: column;
-    width: 20%;
-  } */
   .link {
-    font-size: small;
+    font-size: 16px;
   }
 }
