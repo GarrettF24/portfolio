@@ -23,3 +23,8 @@
 .footer-links a {
   color: rgba(221, 219, 219, 0.753);
 }
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: rgba(221, 219, 219, 0.753);
+}

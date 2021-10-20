@@ -1,12 +1,15 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import LOGO from "../../assets/portlogo.png"
 import "./Nav.css"
 
 export default function Nav() {
   return (
     <nav className="nav">
       <div className="logo">
-        <Link to="/home">Home logo here</Link>
+        <Link to="/home">
+          <img src={LOGO} />
+        </Link>
       </div>
       <div className="links">
         <Link className="link" to="/projects">
