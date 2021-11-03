@@ -42,10 +42,22 @@ nav {
 }
 
 @media all and (max-width: 575px) {
+  .nav {
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-between;
+    background-color: #0c0c0cfa;
+    height: 10rem;
+  }
   .links {
     width: 60%;
   }
   .link {
-    font-size: 16px;
+    font-size: 14px;
+    margin-right: 0.9rem;
+  }
+
+  .logo img {
+    width: 100%;
   }
 }

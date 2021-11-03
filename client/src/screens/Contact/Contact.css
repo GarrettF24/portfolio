@@ -23,6 +23,7 @@
 
 .contact-title {
   display: flex;
+  text-align: center;
   /* border: 3px solid yellowgreen; */
 }
 
@@ -33,9 +34,9 @@
   margin: 4.4rem auto;
 }
 Form {
-  border: 1px solid lightgray;
-  border-radius: 10px;
-  padding: 20px;
+  /* border: 1px solid lightgray; */
+  /* border-radius: 10px; */
+  padding: 10px;
 }
 
 .professional-links {
@@ -66,5 +67,9 @@ Form {
 
   .professional-links {
     width: 100%;
+  }
+  .contact-form {
+    margin-bottom: 4.5rem;
+    margin: none;
   }
 }
