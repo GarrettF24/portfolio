@@ -28,17 +28,29 @@
 }
 
 .contact-form {
-  /* display: flex; */
+  display: flex;
   text-align: center;
-  min-width: 30%;
+  min-width: 50%;
   margin: 4.4rem auto;
 }
-Form {
-  /* border: 1px solid lightgray; */
-  /* border-radius: 10px; */
-  padding: 10px;
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+.email-info {
+  margin: 1rem;
+  width: 50%;
+  align-self: center;
 }
 
+Button {
+  width: 30%;
+  align-self: center;
+}
 .professional-links {
   display: flex;
   /* flex-direction: column; */
@@ -71,5 +83,24 @@ Form {
   .contact-form {
     margin-bottom: 4.5rem;
     margin: none;
+    width: 80%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .email-info {
+    margin: 1rem;
+    width: 80%;
+    align-self: center;
+  }
+
+  Button {
+    width: 30%;
+    align-self: center;
   }
 }

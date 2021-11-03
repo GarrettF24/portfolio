@@ -4,10 +4,12 @@ import Footer from "../Footer/Footer"
 
 export default function Layout(props) {
   return (
-    <div>
+    <>
       <Nav />
-      <div className="container">{props.children}</div>
-      <Footer />
-    </div>
+      <>
+        <div className="container">{props.children}</div>
+        <Footer />
+      </>
+    </>
   )
 }

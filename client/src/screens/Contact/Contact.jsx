@@ -51,8 +51,9 @@ export default function Contact() {
         </div>
       </div>
       <div className="contact-form">
-        <Form onSubmit={handleOnSubmit}>
-          <Form.Field
+        <form onSubmit={handleOnSubmit}>
+          <input
+            className="email-info"
             id="form-input-control-email"
             control={Input}
             label="Email"
@@ -62,7 +63,8 @@ export default function Contact() {
             icon="mail"
             iconPosition="left"
           />
-          <Form.Field
+          <input
+            className="email-info"
             id="form-input-control-last-name"
             control={Input}
             label="Name"
@@ -72,7 +74,8 @@ export default function Contact() {
             icon="user circle"
             iconPosition="left"
           />
-          <Form.Field
+          <textarea
+            className="email-info"
             id="form-textarea-control-opinion"
             control={TextArea}
             label="Message"
@@ -83,7 +86,7 @@ export default function Contact() {
           <Button type="submit" color="green">
             Submit
           </Button>
-        </Form>
+        </form>
       </div>
     </div>
   )
