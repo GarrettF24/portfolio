@@ -2,7 +2,7 @@ import React from "react"
 import "./Projects.css"
 import MuayThaiPicture from "../../assets/muay-thai-guy.png"
 import GJAM from "../../assets/gjam.png"
-import FITNESS from "../../assets/fitnessapp.png"
+// import FITNESS from "../../assets/fitnessapp.png"
 export default function Projects() {
   return (
     <div className="project-container">
@@ -12,6 +12,7 @@ export default function Projects() {
             target="_blank"
             className="anchor"
             href="https://muay-thai-guy.netlify.app/"
+            rel="noreferrer"
           >
             <img className="screenshot" src={MuayThaiPicture} alt="project1" />
           </a>
@@ -26,7 +27,11 @@ export default function Projects() {
           <div className="code-links">
             <h3>
               Check out the
-              <a target="_blank" href="https://github.com/WAMS24/muay-thai-guy">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/WAMS24/muay-thai-guy"
+              >
                 {" "}
                 code
               </a>
@@ -40,6 +45,7 @@ export default function Projects() {
             target="_blank"
             className="anchor"
             href="https://gjam-app.netlify.app/"
+            rel="noreferrer"
           >
             <img className="screenshot" src={GJAM} alt="project2" />
           </a>
@@ -56,7 +62,11 @@ export default function Projects() {
           <div className="code-links">
             <h3>
               Check out the
-              <a target="_blank" href="https://github.com/WAMS24/gjam-app">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/WAMS24/gjam-app"
+              >
                 {" "}
                 code
               </a>
@@ -64,7 +74,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="projects">
+      {/* <div className="projects">
         <div className="project-screenshot">
           <a
             target="_blank"
@@ -88,14 +98,14 @@ export default function Projects() {
           <div className="code-links">
             <h3>
               Check out the
-              <a target="_blank" href="https://github.com/WAMS24/fitness-app">
+              <a target="_blank" rel="noreferrer" href="https://github.com/WAMS24/fitness-app">
                 {" "}
                 code
               </a>
             </h3>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

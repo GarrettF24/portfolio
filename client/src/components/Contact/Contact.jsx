@@ -1,5 +1,5 @@
 import React from "react"
-import { Form, Input, TextArea, Button } from "semantic-ui-react"
+import { Input, TextArea, Button } from "semantic-ui-react"
 import Swal from "sweetalert2"
 import emailjs from "emailjs-com"
 import "./Contact.css"
@@ -40,12 +40,13 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.linkedin.com/in/garrettfoster24/"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
         </div>
         <div className="github-link">
-          <a target="_blank" href="https://github.com/WAMS24">
+          <a target="_blank" href="https://github.com/WAMS24" rel="noreferrer">
             Github
           </a>
         </div>

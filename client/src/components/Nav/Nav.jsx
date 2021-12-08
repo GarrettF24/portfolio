@@ -8,11 +8,11 @@ export default function Nav() {
     <nav className="nav">
       <div className="logo">
         <Link to="/home">
-          <img src={LOGO} />
+          <img src={LOGO} alt="logo" />
         </Link>
       </div>
       <div className="links">
-        <Link className="link" to="/projects">
+        <Link className="link" to=".projects-section">
           Projects
         </Link>
         <a
