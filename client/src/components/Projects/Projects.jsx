@@ -5,76 +5,81 @@ import GJAM from "../../assets/gjam.png"
 // import FITNESS from "../../assets/fitnessapp.png"
 export default function Projects() {
   return (
-    <div className="project-container">
-      <div className="projects">
-        <div className="project-screenshot">
-          <a
-            target="_blank"
-            className="anchor"
-            href="https://muay-thai-guy.netlify.app/"
-            rel="noreferrer"
-          >
-            <img className="screenshot" src={MuayThaiPicture} alt="project1" />
-          </a>
-        </div>
-        <div className="project-info">
-          <p className="project-paragraph">
-            Muay-thai-guy is a product review and blog app all rolled into one.
-            This app combines my long love of muay thai with my new and growing
-            love of programming. All opinions and reviews will be based off my 5
-            years of expierence in Muay Thai.
-          </p>
-          <div className="code-links">
-            <h3>
-              Check out the
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/WAMS24/muay-thai-guy"
-              >
-                {" "}
-                code
-              </a>
-            </h3>
+    <div className="main-container">
+      <div className="project-container">
+        <div className="projects">
+          <div className="project-screenshot">
+            <a
+              target="_blank"
+              className="anchor"
+              href="https://muay-thai-guy.netlify.app/"
+              rel="noreferrer"
+            >
+              <img
+                className="screenshot"
+                src={MuayThaiPicture}
+                alt="project1"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <p className="project-paragraph">
+              Muay-thai-guy is a product review and blog app all rolled into
+              one. This app combines my long love of muay thai with my new and
+              growing love of programming. All opinions and reviews will be
+              based off my 5 years of expierence in Muay Thai.
+            </p>
+            <div className="code-links">
+              <h3>
+                Check out the
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/WAMS24/muay-thai-guy"
+                >
+                  {" "}
+                  code
+                </a>
+              </h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="projects">
-        <div className="project-screenshot">
-          <a
-            target="_blank"
-            className="anchor"
-            href="https://gjam-app.netlify.app/"
-            rel="noreferrer"
-          >
-            <img className="screenshot" src={GJAM} alt="project2" />
-          </a>
-        </div>
-        <div className="project-info">
-          <p className="project-paragraph">
-            This is an eCommerce jam store that lets users log in with the
-            option to view, create, and edit jams. Jams are stored in a database
-            so that users can see jams they created and jams created by other
-            users. If a user is not signed in, they will not be able to edit or
-            create a jam. A shopping cart is available to logged in users so
-            they can add and remove jams.
-          </p>
-          <div className="code-links">
-            <h3>
-              Check out the
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/WAMS24/gjam-app"
-              >
-                {" "}
-                code
-              </a>
-            </h3>
+        <div className="projects">
+          <div className="project-screenshot">
+            <a
+              target="_blank"
+              className="anchor"
+              href="https://gjam-app.netlify.app/"
+              rel="noreferrer"
+            >
+              <img className="screenshot" src={GJAM} alt="project2" />
+            </a>
+          </div>
+          <div className="project-info">
+            <p className="project-paragraph">
+              This is an eCommerce jam store that lets users log in with the
+              option to view, create, and edit jams. Jams are stored in a
+              database so that users can see jams they created and jams created
+              by other users. If a user is not signed in, they will not be able
+              to edit or create a jam. A shopping cart is available to logged in
+              users so they can add and remove jams.
+            </p>
+            <div className="code-links">
+              <h3>
+                Check out the
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/WAMS24/gjam-app"
+                >
+                  {" "}
+                  code
+                </a>
+              </h3>
+            </div>
           </div>
         </div>
-      </div>
-      {/* <div className="projects">
+        {/* <div className="projects">
         <div className="project-screenshot">
           <a
             target="_blank"
@@ -106,6 +111,7 @@ export default function Projects() {
           </div>
         </div>
       </div> */}
+      </div>
     </div>
   )
 }

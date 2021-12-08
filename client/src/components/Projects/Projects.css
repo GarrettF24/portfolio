@@ -1,56 +1,58 @@
+.main-container {
+  width: 75%;
+  height: 700px;
+  margin: 100px auto;
+  overflow: hidden;
+  /* padding-right: 15px; */
+  /* rgb 255 */
+  background-color: rgba(161, 160, 160, 0.185);
+  box-shadow: 2px 6px 2px -2px grey;
+  border-radius: 5px;
+  padding-top: 10px;
+  /* border: 3px solid thistle; */
+}
+
 .project-container {
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  /* border: 1px solid royalblue; */
   height: 100%;
-  margin: 3rem auto;
+  width: 100%;
+  overflow-y: scroll;
+  /* padding-right: 0px; */
 }
 
 .projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  width: 80vw;
-  height: 20vh;
+  width: 100%;
+  /* height: 20vh; */
   /* border: 1px solid red; */
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
 }
 .anchor {
   display: flex;
   width: 100%;
   height: 100%;
+  justify-content: center;
 }
 
 .project-screenshot {
   display: flex;
-  width: 50%;
+  width: 100%;
+  height: 500px;
   /* border: 1px solid seagreen; */
 }
 
 .screenshot {
-  width: 100%;
+  width: 98%;
 }
 
 .project-info {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 90%;
+  text-align: center;
   /* border: 1px solid yellow; */
   font-size: 1.2rem;
 }

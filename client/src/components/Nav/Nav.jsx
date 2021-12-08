@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import LOGO from "../../assets/portlogo.png"
 import "./Nav.css"
 
@@ -7,14 +6,13 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="logo">
-        <Link to="/home">
+        <a href="#home-route">
           <img src={LOGO} alt="logo" />
-        </Link>
+        </a>
       </div>
       <div className="links">
-        <Link className="link" to=".projects-section">
-          Projects
-        </Link>
+        <a href="#project-route">Projects</a>
+        <a href="#contact-route">Contact</a>
         <a
           rel="noreferrer"
           className="link"
@@ -23,9 +21,6 @@ export default function Nav() {
         >
           Resume
         </a>
-        <Link className="link" to="/contact">
-          Contact
-        </Link>
       </div>
     </nav>
   )

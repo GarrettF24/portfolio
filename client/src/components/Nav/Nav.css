@@ -9,8 +9,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #0c0c0cfa;
-  height: 12rem;
+  background-color: #0c0c0c;
+  height: 150px;
 }
 
 /* .logo {

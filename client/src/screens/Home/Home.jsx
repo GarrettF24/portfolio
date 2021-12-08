@@ -5,10 +5,11 @@ import AboutMe from "../../components/AboutMe/AboutMe"
 import TechStack from "../../components/TechStack/TechStack"
 import Construction from "../../assets/7039866_0.png"
 import "./Home.css"
+import { Route } from "react-router"
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <div id="home-route" className="home-container">
       <img
         style={{ height: "400px", width: "600px", alignSelf: "center" }}
         src={Construction}
@@ -20,10 +21,10 @@ export default function Home() {
       <div className="tech-stack-section">
         <TechStack />
       </div>
-      <div className="projects-section">
+      <div id="project-route" className="projects-section">
         <Projects />
       </div>
-      <div className="contact-section">
+      <div id="contact-route" className="contact-section">
         <Contact />
       </div>
     </div>

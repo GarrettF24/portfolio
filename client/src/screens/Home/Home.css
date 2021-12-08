@@ -1,7 +1,7 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  /* border: 3px solid red; */
+  border: 3px solid red;
   margin: 3rem auto;
   width: 85vw;
 }
@@ -49,25 +49,6 @@
   margin: 4rem auto;
   justify-content: space-evenly;
   width: inherit;
-}
-
-/* .contact-me {
-  border: 5px solid purple;
-}
-
-.portfolio-link {
-  border: 5px solid salmon;
-} */
-
-.home-contact-links a {
-  color: black;
-  text-decoration: underline;
-  font-style: oblique;
-}
-
-.home-contact-links a:hover {
-  color: rgba(0, 0, 0, 0.377);
-  text-decoration: underline;
 }
 
 @media only screen and (max-width: 575px) {
