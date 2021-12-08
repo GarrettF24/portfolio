@@ -2,6 +2,8 @@ import React from "react"
 import { Input, TextArea, Button } from "semantic-ui-react"
 import Swal from "sweetalert2"
 import emailjs from "emailjs-com"
+import { FiGithub } from "react-icons/fi"
+import { FiLinkedin } from "react-icons/fi"
 import "./Contact.css"
 
 const SERVICE_ID = "service_8b6kcli"
@@ -40,14 +42,13 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.linkedin.com/in/garrettfoster24/"
-            rel="noreferrer"
           >
-            LinkedIn
+            <FiLinkedin />
           </a>
         </div>
         <div className="github-link">
-          <a target="_blank" href="https://github.com/WAMS24" rel="noreferrer">
-            Github
+          <a target="_blank" href="https://github.com/WAMS24" rel>
+            <FiGithub />
           </a>
         </div>
       </div>
