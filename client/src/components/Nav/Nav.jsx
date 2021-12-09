@@ -1,5 +1,5 @@
 import React from "react"
-import LOGO from "../../assets/portlogo.png"
+import LOGO from "../../assets/garrett-logo-white.png"
 import "./Nav.css"
 
 export default function Nav() {
@@ -7,12 +7,16 @@ export default function Nav() {
     <nav className="nav">
       <div className="logo">
         <a href="#home-route">
-          <img src={LOGO} alt="logo" />
+          <img className="image" src={LOGO} alt="logo" />
         </a>
       </div>
       <div className="links">
-        <a href="#project-route">Projects</a>
-        <a href="#contact-route">Contact</a>
+        <a className="link" href="#project-route">
+          Projects
+        </a>
+        <a className="link" href="#contact-route">
+          Contact
+        </a>
         <a
           rel="noreferrer"
           className="link"
