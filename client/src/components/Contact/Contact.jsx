@@ -40,14 +40,22 @@ export default function Contact() {
       <div className="professional-links">
         <div className="linked-in-link">
           <a
+            className="links-to-pages"
             target="_blank"
             href="https://www.linkedin.com/in/garrettfoster24/"
+            rel="noreferrer"
           >
             <FiLinkedin />
           </a>
         </div>
         <div className="github-link">
-          <a target="_blank" href="https://github.com/WAMS24" rel>
+          <a
+            className="links-to-pages"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/WAMS24"
+            rel
+          >
             <FiGithub />
           </a>
         </div>

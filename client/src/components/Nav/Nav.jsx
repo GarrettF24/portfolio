@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="logo">
-        <a href="#home-route">
+        <a href="#root">
           <img className="image" src={LOGO} alt="logo" />
         </a>
       </div>
