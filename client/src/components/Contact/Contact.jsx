@@ -1,5 +1,5 @@
 import React from "react"
-import { Input, TextArea, Button } from "semantic-ui-react"
+import { Button } from "semantic-ui-react"
 import Swal from "sweetalert2"
 import emailjs from "emailjs-com"
 import { FiGithub } from "react-icons/fi"
@@ -54,7 +54,6 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
             href="https://github.com/WAMS24"
-            rel
           >
             <FiGithub />
           </a>
@@ -65,29 +64,29 @@ export default function Contact() {
           <input
             className="email-info"
             id="form-input-control-email"
-            control={Input}
+            // control={Input}
             label="Email"
             name="from_email"
             placeholder="Email…"
             required
             icon="mail"
-            iconPosition="left"
+            // iconPosition="left"
           />
           <input
             className="email-info"
             id="form-input-control-last-name"
-            control={Input}
+            // control={Input}
             label="Name"
             name="from_name"
             placeholder="Name…"
             required
             icon="user circle"
-            iconPosition="left"
+            // iconPosition="left"
           />
           <textarea
             className="email-info"
             id="form-textarea-control-opinion"
-            control={TextArea}
+            // control={TextArea}
             label="Message"
             name="message"
             placeholder="Message…"

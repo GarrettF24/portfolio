@@ -5,7 +5,6 @@ import AboutMe from "../../components/AboutMe/AboutMe"
 import TechStack from "../../components/TechStack/TechStack"
 import Construction from "../../assets/7039866_0.png"
 import "./Home.css"
-import { Route } from "react-router"
 
 export default function Home() {
   return (

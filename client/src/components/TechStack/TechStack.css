@@ -1,0 +1,27 @@
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: 400px;
+  margin: 1rem auto;
+}
+
+.tech-stack-list {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+
+.carousel-slides {
+  display: flex;
+  /* border: 2px solid green; */
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tech {
+  font-size: 25px;
+}
