@@ -48,7 +48,7 @@ nav {
   align-items: center;
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 500px) {
   .nav {
     /* display: flex;
     flex-direction: row; */

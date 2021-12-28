@@ -112,7 +112,10 @@ Button.ui.green.button {
   font-size: 2rem;
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 500px) {
+  .contact-container {
+    width: 100%;
+  }
   .contact-title h1 {
     font-size: 20px;
   }
@@ -122,8 +125,8 @@ Button.ui.green.button {
   }
   .contact-form {
     margin-bottom: 4.5rem;
-    margin: none;
-    width: 80%;
+    margin: 3px auto;
+    width: 95%;
   }
 
   form {
@@ -133,9 +136,12 @@ Button.ui.green.button {
     width: 100%;
     margin: 0 auto;
   }
+  textarea.email-info {
+    width: 95%;
+  }
   .email-info {
     margin: 1rem;
-    width: 80%;
+    width: 90%;
     align-self: center;
   }
 
